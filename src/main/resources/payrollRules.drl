@@ -1,0 +1,18 @@
+package  KieRule;
+import com.datassist.payrollEntities.PayrollEntity;
+
+rule "AcceptedPayroll"
+
+when
+orderObject : PayrollEntity(netUcret>0 && calismayaTabiGunSayisi > 0);
+then
+orderObject.setErrorResponse("PAYROLL HESAPLANABİLİR");
+end;
+
+rule "RejectedtedPayroll"
+
+when
+orderObject : PayrollEntity(netUcret <= 0 && calismayaTabiGunSayisi <= 0);
+then
+orderObject.setErrorResponse("PAYROLL HESAPLANAMAZ");
+end;
