@@ -4,8 +4,8 @@
 Heroku Link: https://drools-rule-engine.herokuapp.com/
 
 <h2> Test Scenerio </h2><br/>
+
 ```
-  
   rule "AcceptedPayroll"
 
 when
@@ -23,9 +23,13 @@ orderObject.setErrorResponse("PAYROLL HESAPLANAMAZ");
 end;
 ```
 <h2>Query Example</h2><br/>
-<h3><a href="https://drools-rule-engine.herokuapp.com/payroll">Test Link</a></h3>
+LINK: <h3><a href="https://drools-rule-engine.herokuapp.com/payroll">Click Here For Connecting Service URL</a></h3>
+QUERY EXAMPLE (Post Request):<br/>
+
+```
 {
     "netUcret": 20,
     "calismayaTabiGunSayisi": 30,
     "errorResponse": "PAYROLL HESAPLANABİLİR"
 }
+```
