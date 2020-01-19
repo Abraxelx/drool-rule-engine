@@ -23,8 +23,8 @@ orderObject.setErrorResponse("PAYROLL HESAPLANAMAZ");
 end;
 ```
 <h2>Query Example</h2><br/>
-LINK: <h3><a href="https://drools-rule-engine.herokuapp.com/payroll">Click Here For Connecting Service URL</a></h3>
-QUERY EXAMPLE (Post Request):<br/>
+<b>LINK:</b> <h3><a href="https://drools-rule-engine.herokuapp.com/payroll">Click Here For Connecting Service URL</a></h3>
+<b>QUERY EXAMPLE (Post Request):</b><br/>
 
 ```
 {
