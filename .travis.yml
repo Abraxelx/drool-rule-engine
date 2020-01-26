@@ -6,5 +6,3 @@ install: -./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 addons:
   apt:
     update: true
-    packages:
-      - sudo apt-get install openjdk-8-jre
