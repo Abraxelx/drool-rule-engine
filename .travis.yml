@@ -2,7 +2,6 @@ language: java
 sudo: true
 dist: trusty
 jdk: openjdk8
-install: -./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 addons:
   apt:
     update: true
