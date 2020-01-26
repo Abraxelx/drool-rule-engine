@@ -2,3 +2,9 @@ language: java
 sudo: true
 dist: trusty
 jdk: openjdk8
+addons:
+  apt:
+    packages:
+      - sudo apt-get install openjdk-8-jre
+      - before_install:
+          - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
